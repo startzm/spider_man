@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jumei" uuid="e1927ba7-c150-48dc-8eba-a0bc44ef3b84">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\codes\spider_man\spider_man\database\sqlite\jumei.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jumei [2]" uuid="ec722038-5006-4bd5-afa0-d489c0ea233e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\codes\spider_man\spider_man\spiders\jumei\jumei.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>
