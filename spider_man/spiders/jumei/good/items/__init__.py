@@ -1,0 +1,5 @@
+from .good_static_detail_item import GoodStaticDetailItem
+from .good_dynamic_detail_item import GoodDynamicDetailItem
+from .good_comment_item import GoodCommentItem
+from .good_recommend_item import GoodRecommendItem
+from .good_category_item import GoodCategoryItem

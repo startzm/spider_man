@@ -1,0 +1,116 @@
+import scrapy
+
+__all__ = ['GoodCategoryItem']
+
+
+class GoodCategoryItem(scrapy.Item):
+    # 商品分类详情
+    _id = scrapy.Field()
+    type = scrapy.Field()
+    search_doc_id = scrapy.Field()
+    item_id = scrapy.Field()
+    # 商品状态状态
+    status = scrapy.Field()
+    # 状态码
+    status_num = scrapy.Field()
+    selling_forms = scrapy.Field()
+    settling_accounts_forms = scrapy.Field()
+    # 商品名
+    name = scrapy.Field()
+    # 商品分享名
+    qrshare_product_name = scrapy.Field()
+    # 商品短名
+    short_name = scrapy.Field()
+    # 商品ID
+    product_id = scrapy.Field()
+    # 品牌ID
+    brand_id = scrapy.Field()
+    # 子分类ID
+    category_id = scrapy.Field()
+    # 功效ID
+    function_ids = scrapy.Field()
+    # 实际价格
+    jumei_price = scrapy.Field()
+    # 原价
+    market_price = scrapy.Field()
+    # 购买人数
+    buyer_number = scrapy.Field()
+    popular = scrapy.Field()
+    # 商品图
+    image_url_set = scrapy.Field()
+    tag = scrapy.Field()
+    display_price = scrapy.Field()
+    wish_number = scrapy.Field()
+    start_time = scrapy.Field()
+    end_time = scrapy.Field()
+    show_category = scrapy.Field()
+    has_short_video = scrapy.Field()
+    size_attr = scrapy.Field()
+    item_tag = scrapy.Field()
+    sku_last_sale_time = scrapy.Field()
+    middle_name = scrapy.Field()
+    selling_point = scrapy.Field()
+    category_v3_1 = scrapy.Field()
+    tag_id = scrapy.Field()
+    tag_ids = scrapy.Field()
+    countries = scrapy.Field()
+    countries_icon = scrapy.Field()
+    yqt_show = scrapy.Field()
+    exchange_policy = scrapy.Field()
+    price_detail = scrapy.Field()
+    value_of_goods = scrapy.Field()
+    tax = scrapy.Field()
+    live_info = scrapy.Field()
+    deal_comments_number = scrapy.Field()
+    total_sales_number = scrapy.Field()
+    foreign_language_name = scrapy.Field()
+    abroad_price_foreign = scrapy.Field()
+    jumei_price_foreign = scrapy.Field()
+    abroad_price = scrapy.Field()
+    area_currency_symbol = scrapy.Field()
+    area_currency_symbol_location = scrapy.Field()
+    area_name = scrapy.Field()
+    # 地区图标
+    area_icon = scrapy.Field()
+    is_combination = scrapy.Field()
+    # 评论数 （375条评论）
+    product_desc = scrapy.Field()
+    is_dm = scrapy.Field()
+    authorization = scrapy.Field()
+    is_deal = scrapy.Field()
+    name_tag = scrapy.Field()
+    time_desc = scrapy.Field()
+    tip_desc = scrapy.Field()
+    shipping_system_id = scrapy.Field()
+    aca_alliance = scrapy.Field()
+    aca_brand = scrapy.Field()
+    product_reports_number = scrapy.Field()
+    stocks_alarm = scrapy.Field()
+    status_tag = scrapy.Field()
+    live = scrapy.Field()
+    video_info = scrapy.Field()
+    brand_logo = scrapy.Field()
+    buried_type = scrapy.Field()
+    exposure_link = scrapy.Field()
+    click_link = scrapy.Field()
+    is_proprietary = scrapy.Field()
+    is_sellable_self = scrapy.Field()
+    is_sellable = scrapy.Field()
+    single_festival_title = scrapy.Field()
+    double_festival_title = scrapy.Field()
+    festival_price = scrapy.Field()
+    is_activity = scrapy.Field()
+    divideFlag = scrapy.Field()
+    divideIcon = scrapy.Field()
+    divideLabel = scrapy.Field()
+    fake_total_sales_number = scrapy.Field()
+    mall_sale_mode = scrapy.Field()
+    sku_max_price = scrapy.Field()
+    sku_min_price = scrapy.Field()
+    show_purchase_button = scrapy.Field()
+    policy = scrapy.Field()
+    url_schema = scrapy.Field()
+    original_image = scrapy.Field()
+    category = scrapy.Field()
+    discount_for_market_price = scrapy.Field()
+    icon_tag = scrapy.Field()

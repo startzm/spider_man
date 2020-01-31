@@ -1,0 +1,6 @@
+from .category_good import CategoryGoodPageExtractor
+from .good_dynamic_detail import GoodDynamicDetailPageExtractor
+from .good_static_detail import GoodDetailCommentPageExtractor,\
+    GoodStaticDetailPageExtractor, GoodDetailCommentExtractor
+from .good_comment import GoodCommentPageExtractor
+from .good_recommend import GoodRecommendPageExtractor
